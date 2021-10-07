@@ -31,8 +31,8 @@ if(hour > 11)
     hour = hour - 12;
     end
 end
-
-message = "Critical safety event at " + hour + ":" + minute + " " + am_or_pm;
+    
+message = "Critical safety event at " + hour + minute + " " + am_or_pm;
 
 if nargin == 3
     message = subject;
